@@ -1,319 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="monetag" content="124bc7e2f0d2ddb81407eb0a882747da">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Perguntas Picantes 🔥</title>
-
-<style>
-:root{
-  --bg:#120813;
-  --card:#1a0f1f;
-  --accent:#ff2d55;
-  --text:#fff0f6;
-  --muted:#d0b7c7;
-}
-*{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto}
-body{
-  margin:0;min-height:100vh;
-  background:radial-gradient(1200px 600px at 10% -10%,#1b1f3a 0%,transparent 60%),var(--bg);
-  color:var(--text);
-  display:grid;place-items:center;
-}
-.container{width:min(900px,92%)}
-.card{
-  background:var(--card);
-  border-radius:20px;
-  box-shadow:0 20px 60px rgba(0,0,0,.35);
-  padding:24px;margin:16px 0;
-}
-h1{margin:0 0 8px;font-size:2rem}
-p{color:var(--muted)}
-.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-
-select,button{
-  background:#1e2240;color:var(--text);
-  border:1px solid #2b2f57;
-  padding:10px 14px;
-  border-radius:12px;
-  cursor:pointer;
-}
-button.primary{background:var(--accent);border-color:var(--accent)}
-button:hover{filter:brightness(1.05)}
-
-.pill{
-  padding:4px 10px;
-  border-radius:999px;
-  background:#20245a;
-  font-size:.8rem;
-}
-
-.question{
-  font-size:1.35rem;
-  line-height:1.5;
-  margin-top:16px;
-  padding:18px;
-  border-radius:16px;
-  border:2px dashed var(--accent);
-  animation:fade .3s ease;
-}
-
-@keyframes fade{
-  from{opacity:0;transform:translateY(6px)}
-  to{opacity:1;transform:translateY(0)}
-}
-
-.footer{
-  text-align:center;
-  color:var(--muted);
-  font-size:.85rem;
-}
-</style>
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Henrique Lopes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #e5e7eb; }
+    header { background: linear-gradient(135deg, #2563eb, #1e40af); padding: 60px 20px; text-align: center; }
+    header img { width: 160px; height: 160px; border-radius: 50%; border: 4px solid #fff; margin-bottom: 20px; object-fit: cover; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+    section { max-width: 1100px; margin: 60px auto; padding: 0 20px; }
+    h2 { font-size: 2rem; margin-bottom: 20px; color: #60a5fa; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card { background: #020617; border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: transform .3s; }
+    .card:hover { transform: translateY(-6px); }
+    ul { list-style: none; }
+    ul li { margin-bottom: 10px; }
+    .tag { display: inline-block; background: #1e40af; color: #fff; padding: 6px 12px; border-radius: 999px; font-size: 0.8rem; margin: 4px 4px 0 0; }
+    footer { text-align: center; padding: 30px; background: #020617; margin-top: 60px; font-size: 0.9rem; }
+    a { color: #93c5fd; text-decoration: none; }
+  </style>
 </head>
-
 <body>
-<main class="container">
 
-<div class="card">
-<h1>Perguntas Picantes 🔥</h1>
-<p>Quebre o gelo, provoque conversas e se divirta.</p>
+<header>
+  <img src="foto.jpg" alt="Foto de Henrique Lopes">
+  <h1>Henrique Lopes</h1>
+  <p>Estudante de Ciência da Computação - IESB | ADS - Unicesumar</p>
+  <div style="margin-top:20px; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+    <a href="https://github.com/HenriqueLopes741" target="_blank" style="background:#020617; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">🐙 GitHub</a>
+    <a href="https://www.linkedin.com/in/henriquelopesdioniziomuniz/" target="_blank" style="background:#0a66c2; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">💼 LinkedIn</a>
+  </div>
+</header>
 
-<div class="row">
-<select id="category">
-  <option value="all">Todas</option>
-  <option value="leve">🔥 Leve</option>
-  <option value="medio">🔥🔥 Médio</option>
-  <option value="ousado">🔥🔥🔥 Ousado</option>
-  <option value="casal">Casal</option>
-  <option value="amigos">Amigos</option>
-</select>
+<section>
+  <h2>👤 Sobre mim</h2>
+  <div class="grid">
+    <div class="card">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Henrique Lopes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #e5e7eb; }
+    header { background: linear-gradient(135deg, #2563eb, #1e40af); padding: 60px 20px; text-align: center; }
+    header img { width: 160px; height: 160px; border-radius: 50%; border: 4px solid #fff; margin-bottom: 20px; object-fit: cover; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+    section { max-width: 1100px; margin: 60px auto; padding: 0 20px; }
+    h2 { font-size: 2rem; margin-bottom: 20px; color: #60a5fa; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card { background: #020617; border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: transform .3s; }
+    .card:hover { transform: translateY(-6px); }
+    ul { list-style: none; }
+    ul li { margin-bottom: 10px; }
+    .tag { display: inline-block; background: #1e40af; color: #fff; padding: 6px 12px; border-radius: 999px; font-size: 0.8rem; margin: 4px 4px 0 0; }
+    footer { text-align: center; padding: 30px; background: #020617; margin-top: 60px; font-size: 0.9rem; }
+    a { color: #93c5fd; text-decoration: none; }
+  </style>
+</head>
+<body>
 
-<select id="mode">
-  <option value="classic">🎲 Modo Clássico</option>
-  <option value="roleta">🎯 Modo Roleta</option>
-</select>
+<header>
+  <img src="foto.jpg" alt="Foto de Henrique Lopes">
+  <h1>Henrique Lopes</h1>
+  <p>Estudante de Ciência da Computação - IESB | ADS - Unicesumar</p>
+  <div style="margin-top:20px; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+    <a href="https://github.com/HenriqueLopes741" target="_blank" style="background:#020617; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">🐙 GitHub</a>
+    <a href="https://www.linkedin.com/in/henriquelopesdioniziomuniz/" target="_blank" style="background:#0a66c2; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">💼 LinkedIn</a>
+  </div>
+</header>
 
-<button class="primary" onclick="drawQuestion()">Sortear</button>
-<button onclick="favorite()">⭐ Favoritar</button>
-<button onclick="share()">📤 Compartilhar</button>
-<button onclick="resetGame()">🔄 Reset</button>
-
-<span class="pill" id="counter">0 sorteadas</span>
-</div>
-
-<div id="question" class="question">
-Clique em “Sortear”
-</div>
-</div>
-
-<div class="card">
-<h3>⭐ Favoritas</h3>
-<p id="favList">Nenhuma favorita ainda.</p>
-</div>
-
-<div class="footer">
-© 2025 • Jogo de perguntas sugestivas • +18
-</div>
-
-</main>
-
-<script>
-const QUESTIONS = [
-/* 🔥 LEVE (20) */
-{cat:'leve',text:'Qual elogio te conquista mais rápido?'},
-{cat:'leve',text:'O que te chama atenção logo no primeiro olhar?'},
-{cat:'leve',text:'Você prefere encontros planejados ou espontâneos?'},
-{cat:'leve',text:'Qual música cria um clima perfeito?'},
-{cat:'leve',text:'Café, barzinho ou passeio ao ar livre?'},
-{cat:'leve',text:'Você é mais conversa ou atitude?'},
-{cat:'leve',text:'Qual detalhe pequeno faz grande diferença?'},
-{cat:'leve',text:'O que te faz sorrir sem perceber?'},
-{cat:'leve',text:'Prefere noite tranquila ou algo animado?'},
-{cat:'leve',text:'Qual encontro mais inesperado deu certo?'},
-{cat:'leve',text:'Você gosta mais de ouvir ou falar?'},
-{cat:'leve',text:'O que nunca pode faltar em um encontro?'},
-{cat:'leve',text:'Você se considera romântico(a)?'},
-{cat:'leve',text:'Qual conversa te prende facilmente?'},
-{cat:'leve',text:'Prefere algo simples ou elaborado?'},
-{cat:'leve',text:'Qual foi o melhor elogio que já recebeu?'},
-{cat:'leve',text:'Você acredita em boa primeira impressão?'},
-{cat:'leve',text:'O que te deixa à vontade rapidamente?'},
-{cat:'leve',text:'Qual tipo de pessoa te passa confiança?'},
-{cat:'leve',text:'Qual lugar te deixa de bom humor?'},
-
-/* 🔥🔥 MÉDIO (20) */
-{cat:'medio',text:'Você gosta mais de provocar ou ser provocado(a)?'},
-{cat:'medio',text:'Qual tipo de mensagem mexe mais com você?'},
-{cat:'medio',text:'Você acredita em química instantânea?'},
-{cat:'medio',text:'Qual atitude te deixa intrigado(a)?'},
-{cat:'medio',text:'Prefere intensidade ou constância?'},
-{cat:'medio',text:'O que te faz perder a noção do tempo?'},
-{cat:'medio',text:'Qual elogio gostaria de ouvir hoje?'},
-{cat:'medio',text:'O que te deixa mais confiante em um encontro?'},
-{cat:'medio',text:'Você gosta de mistério ou transparência?'},
-{cat:'medio',text:'Qual situação já deu frio na barriga?'},
-{cat:'medio',text:'Prefere surpresas ou expectativas combinadas?'},
-{cat:'medio',text:'O que te conquista aos poucos?'},
-{cat:'medio',text:'Qual tipo de olhar diz mais que palavras?'},
-{cat:'medio',text:'Você se apaixona rápido ou devagar?'},
-{cat:'medio',text:'O que te atrai além da aparência?'},
-{cat:'medio',text:'Qual clima te deixa confortável?'},
-{cat:'medio',text:'O que te faz mudar de ideia sobre alguém?'},
-{cat:'medio',text:'Você prefere conduzir ou ser conduzido(a)?'},
-{cat:'medio',text:'Qual atitude simples é irresistível?'},
-{cat:'medio',text:'Você curte tensão no ar?'},
-
-/* 🔥🔥🔥 OUSADO (20) */
-{cat:'ousado',text:'Qual fantasia romântica toparia contar?'},
-{cat:'ousado',text:'Prefere ritmo lento ou intensidade?'},
-{cat:'ousado',text:'O que desperta curiosidade em alguém?'},
-{cat:'ousado',text:'Qual limite só ultrapassa com confiança?'},
-{cat:'ousado',text:'Você gosta de dominar ou deixar fluir?'},
-{cat:'ousado',text:'Qual convite seria irresistível?'},
-{cat:'ousado',text:'Silêncio tenso ou conversa afiada?'},
-{cat:'ousado',text:'O que arrepia sem tocar?'},
-{cat:'ousado',text:'Qual promessa faria num encontro perfeito?'},
-{cat:'ousado',text:'Qual situação aumenta a tensão?'},
-{cat:'ousado',text:'Prefere provocar aos poucos ou direto?'},
-{cat:'ousado',text:'Qual olhar você não ignora?'},
-{cat:'ousado',text:'O que te deixa vulnerável de um jeito bom?'},
-{cat:'ousado',text:'Qual clima combina mais à noite?'},
-{cat:'ousado',text:'Desafio ou segurança?'},
-{cat:'ousado',text:'Qual aproximação mais mexe com você?'},
-{cat:'ousado',text:'O que torna alguém irresistível?'},
-{cat:'ousado',text:'Qual detalhe te faz perder o foco?'},
-{cat:'ousado',text:'Tensão ou entrega?'},
-{cat:'ousado',text:'Qual atitude muda tudo?'},
-
-/* 💑 CASAL (20) */
-{cat:'casal',text:'O que te faz se apaixonar de novo?'},
-{cat:'casal',text:'Qual hábito do outro mais conquista?'},
-{cat:'casal',text:'Como sair da rotina esta semana?'},
-{cat:'casal',text:'Qual lembrança repetir?'},
-{cat:'casal',text:'O que fortalece a conexão?'},
-{cat:'casal',text:'Qual surpresa simples faria diferença?'},
-{cat:'casal',text:'O que mais admira no outro hoje?'},
-{cat:'casal',text:'O que fazem melhor juntos?'},
-{cat:'casal',text:'Qual momento recente foi especial?'},
-{cat:'casal',text:'O que aprenderam juntos?'},
-{cat:'casal',text:'Como demonstrar mais carinho?'},
-{cat:'casal',text:'Qual plano futuro anima?'},
-{cat:'casal',text:'O que traz segurança na relação?'},
-{cat:'casal',text:'Qual detalhe valoriza em silêncio?'},
-{cat:'casal',text:'O que não pode faltar na relação?'},
-{cat:'casal',text:'Qual hábito criar juntos?'},
-{cat:'casal',text:'O que faz rir juntos?'},
-{cat:'casal',text:'Qual pequena atitude muda o dia?'},
-{cat:'casal',text:'Como manter a chama acesa?'},
-{cat:'casal',text:'Qual momento define vocês?'},
-
-/* 🧑‍🤝‍🧑 AMIGOS (20) */
-{cat:'amigos',text:'Quem é mais romântico do que parece?'},
-{cat:'amigos',text:'Qual conselho vale ouro?'},
-{cat:'amigos',text:'Quem some quando se apaixona?'},
-{cat:'amigos',text:'Qual red flag ignorariam?'},
-{cat:'amigos',text:'Quem manda melhor mensagem?'},
-{cat:'amigos',text:'Qual história rende risadas?'},
-{cat:'amigos',text:'Quem é mais intenso?'},
-{cat:'amigos',text:'Quem se apega mais rápido?'},
-{cat:'amigos',text:'Quem dá o melhor conselho?'},
-{cat:'amigos',text:'Qual erro de encontro é clássico?'},
-{cat:'amigos',text:'Quem demora mais pra responder?'},
-{cat:'amigos',text:'Quem sempre cria expectativas?'},
-{cat:'amigos',text:'Qual situação vira zoeira eterna?'},
-{cat:'amigos',text:'Quem percebe o clima primeiro?'},
-{cat:'amigos',text:'Quem dá mais match?'},
-{cat:'amigos',text:'Quem se apaixona pela conversa?'},
-{cat:'amigos',text:'Qual atitude é unanimemente atraente?'},
-{cat:'amigos',text:'Quem sempre se envolve em histórias curiosas?'},
-{cat:'amigos',text:'Qual conselho daria ao eu do passado?'},
-{cat:'amigos',text:'Quem é mais emocionado(a)?'}
-];
-
-let used=[],count=0;
-let favorites=JSON.parse(localStorage.getItem("favs"))||[];
-let jogadores=[],roletaConfigurada=false;
-
-/* funções mantidas exatamente iguais */
-// ================== FUNÇÕES ==================
-function configurarRoleta(){
-  const qtd = parseInt(prompt('Quantos jogadores?'), 10);
-  if(!qtd || qtd < 2){ alert('Mínimo 2 jogadores'); return false; }
-  jogadores = [];
-  for(let i=1;i<=qtd;i++){
-    const n = prompt(`Nome do jogador ${i}:`);
-    jogadores.push(n && n.trim() ? n.trim() : `Jogador ${i}`);
-  }
-  roletaConfigurada = true;
-  return true;
-}
-
-function drawQuestion(){
-  const cat = document.getElementById('category').value;
-  const mode = document.getElementById('mode').value;
-
-  let pool = cat === 'all' ? QUESTIONS : QUESTIONS.filter(q => q.cat === cat);
-  pool = pool.filter(q => !used.includes(q.text));
-
-  if(pool.length === 0){
-    document.getElementById('question').textContent = 'Todas já foram usadas 😉';
-    return;
-  }
-
-  if(mode === 'roleta' && !roletaConfigurada){
-    const ok = configurarRoleta();
-    if(!ok) return;
-  }
-
-  const q = pool[Math.floor(Math.random() * pool.length)];
-  used.push(q.text);
-  count++;
-
-  let texto = q.text;
-  if(mode === 'roleta'){
-    const nome = jogadores[Math.floor(Math.random() * jogadores.length)];
-    texto = `🎯 ${nome}: ${q.text}`;
-  }
-
-  document.getElementById('question').textContent = texto;
-  document.getElementById('counter').textContent = `${count} sorteadas`;
-}
-
-function favorite(){
-  const t = document.getElementById('question').textContent;
-  if(!t || t.includes('Clique')) return;
-  if(!favorites.includes(t)){
-    favorites.push(t);
-    localStorage.setItem('favs', JSON.stringify(favorites));
-    renderFavs();
-  }
-}
-
-function renderFavs(){
-  const el = document.getElementById('favList');
-  el.innerHTML = favorites.length ? favorites.map(f => '• ' + f).join('<br>') : 'Nenhuma favorita ainda.';
-}
-renderFavs();
-
-function share(){
-  const t = document.getElementById('question').textContent;
-  if(navigator.share){ navigator.share({title:'Perguntas Picantes 🔥', text:t}); }
-  else{ alert('Compartilhamento não suportado'); }
-}
-
-function resetGame(){
-  used = [];
-  count = 0;
-  jogadores = [];
-  roletaConfigurada = false;
-  document.getElementById('counter').textContent = '0 sorteadas';
-  document.getElementById('question').textContent = 'Jogo resetado 🔄';
-}
-</script>
-<script>(function(s){s.dataset.zone='10337393',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script> 
-<script src="https://3nbf4.com/act/files/tag.min.js?z=10337410" data-cfasync="false" async></script>
-</body>
-</html>
-
+<section>
+  <h2>👤 Sobre mim</h2>
+  <div class="grid">
+    <div class="card">
+      <p>
+        Sou estudante de <strong>Análise e Desenvolvimento de Sistemas (Unicesumar)</strong> e
+        <strong>Ciência da Computação (IESB)</strong>, com foco em
+        <strong>infraestrutura, servidores Linux e computação em nuvem</strong>.
+        Possuo experiência prática na configuração, manutenção e resolução de problemas
+        em ambientes de servidor, além de interesse contínuo em Cloud Computing e DevOps.
+      </p>
+      <ul style="margin-top:20px;">
+        <li><strong>Idade:</strong> 18 anos</li>
+        <li><strong>Email:</strong> henrique.lopes.d.m@gmail.com</li>
+        <li><strong>Formação:</strong> ADS – Unicesumar | Ciência da Computação – IESB</li>
+      </ul>
+    </div>
+  </div>
+</section>
