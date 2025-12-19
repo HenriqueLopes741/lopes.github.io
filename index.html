@@ -4,77 +4,102 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio | Henrique Lopes</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #e5e7eb; }
-    header { background: linear-gradient(135deg, #2563eb, #1e40af); padding: 60px 20px; text-align: center; }
-    header img { width: 160px; height: 160px; border-radius: 50%; border: 4px solid #fff; margin-bottom: 20px; object-fit: cover; }
-    header h1 { font-size: 2.5rem; }
-    header p { font-size: 1.1rem; opacity: 0.9; }
-    section { max-width: 1100px; margin: 60px auto; padding: 0 20px; }
-    h2 { font-size: 2rem; margin-bottom: 20px; color: #60a5fa; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
-    .card { background: #020617; border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: transform .3s; }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+
+    header h1 { font-size: 2.6rem; }
+    header p { font-size: 1.1rem; opacity: .95; }
+
+    section {
+      max-width: 1100px;
+      margin: 70px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #60a5fa;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 18px;
+      padding: 26px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+      transition: transform .3s;
+    }
+
     .card:hover { transform: translateY(-6px); }
-    ul { list-style: none; }
-    ul li { margin-bottom: 10px; }
-    .tag { display: inline-block; background: #1e40af; color: #fff; padding: 6px 12px; border-radius: 999px; font-size: 0.8rem; margin: 4px 4px 0 0; }
-    footer { text-align: center; padding: 30px; background: #020617; margin-top: 60px; font-size: 0.9rem; }
+
+    ul { list-style: none; margin-top: 15px; }
+    ul li { margin-bottom: 8px; }
+
+    .tag {
+      display: inline-block;
+      background: #1e40af;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: .8rem;
+      margin: 6px 6px 0 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      font-size: .9rem;
+    }
+
     a { color: #93c5fd; text-decoration: none; }
+    a.btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #2563eb;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-weight: 600;
+    }
   </style>
 </head>
+
 <body>
 
 <header>
   <img src="foto.jpg" alt="Foto de Henrique Lopes">
   <h1>Henrique Lopes</h1>
-  <p>Estudante de Ciência da Computação - IESB | ADS - Unicesumar</p>
-  <div style="margin-top:20px; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
-    <a href="https://github.com/HenriqueLopes741" target="_blank" style="background:#020617; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">🐙 GitHub</a>
-    <a href="https://www.linkedin.com/in/henriquelopesdioniziomuniz/" target="_blank" style="background:#0a66c2; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">💼 LinkedIn</a>
-  </div>
-</header>
+  <p>Estudante de Ciência da Computação | Infraestrutura • Cloud • Linux</p>
 
-<section>
-  <h2>👤 Sobre mim</h2>
-  <div class="grid">
-    <div class="card">
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio | Henrique Lopes</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #e5e7eb; }
-    header { background: linear-gradient(135deg, #2563eb, #1e40af); padding: 60px 20px; text-align: center; }
-    header img { width: 160px; height: 160px; border-radius: 50%; border: 4px solid #fff; margin-bottom: 20px; object-fit: cover; }
-    header h1 { font-size: 2.5rem; }
-    header p { font-size: 1.1rem; opacity: 0.9; }
-    section { max-width: 1100px; margin: 60px auto; padding: 0 20px; }
-    h2 { font-size: 2rem; margin-bottom: 20px; color: #60a5fa; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
-    .card { background: #020617; border-radius: 16px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: transform .3s; }
-    .card:hover { transform: translateY(-6px); }
-    ul { list-style: none; }
-    ul li { margin-bottom: 10px; }
-    .tag { display: inline-block; background: #1e40af; color: #fff; padding: 6px 12px; border-radius: 999px; font-size: 0.8rem; margin: 4px 4px 0 0; }
-    footer { text-align: center; padding: 30px; background: #020617; margin-top: 60px; font-size: 0.9rem; }
-    a { color: #93c5fd; text-decoration: none; }
-  </style>
-</head>
-<body>
-
-<header>
-  <img src="foto.jpg" alt="Foto de Henrique Lopes">
-  <h1>Henrique Lopes</h1>
-  <p>Estudante de Ciência da Computação - IESB | ADS - Unicesumar</p>
-  <div style="margin-top:20px; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
-    <a href="https://github.com/HenriqueLopes741" target="_blank" style="background:#020617; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">🐙 GitHub</a>
-    <a href="https://www.linkedin.com/in/henriquelopesdioniziomuniz/" target="_blank" style="background:#0a66c2; padding:12px 22px; border-radius:999px; color:#fff; font-weight:600;">💼 LinkedIn</a>
+  <div style="margin-top:25px; display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+    <a class="btn" href="https://github.com/HenriqueLopes741" target="_blank">🐙 GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/henriquelopesdioniziomuniz/" target="_blank">💼 LinkedIn</a>
   </div>
 </header>
 
@@ -86,14 +111,66 @@
         Sou estudante de <strong>Análise e Desenvolvimento de Sistemas (Unicesumar)</strong> e
         <strong>Ciência da Computação (IESB)</strong>, com foco em
         <strong>infraestrutura, servidores Linux e computação em nuvem</strong>.
-        Possuo experiência prática na configuração, manutenção e resolução de problemas
-        em ambientes de servidor, além de interesse contínuo em Cloud Computing e DevOps.
+        Tenho experiência prática com servidores, APIs e monitoramento de serviços.
       </p>
-      <ul style="margin-top:20px;">
-        <li><strong>Idade:</strong> 18 anos</li>
+
+      <ul>
         <li><strong>Email:</strong> henrique.lopes.d.m@gmail.com</li>
-        <li><strong>Formação:</strong> ADS – Unicesumar | Ciência da Computação – IESB</li>
+        <li><strong>Formação:</strong> ADS – Unicesumar | CC – IESB</li>
       </ul>
     </div>
   </div>
 </section>
+
+<section>
+  <h2>🚀 Projetos</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>🟩 Monitoramento de Servidor Minecraft</h3>
+      <p style="margin-top:10px;">
+        Projeto completo de <strong>monitoramento de servidor Minecraft</strong>, com
+        <strong>API em Python (Flask)</strong> e <strong>site web</strong> que exibe
+        status do servidor em tempo real.
+      </p>
+
+      <ul>
+        <li>✔ API REST retornando status, latência e jogadores</li>
+        <li>✔ Backend em Python rodando em servidor Linux</li>
+        <li>✔ Frontend consumindo a API via HTTP</li>
+        <li>✔ Deploy e testes via terminal</li>
+      </ul>
+
+      <div>
+        <span class="tag">Python</span>
+        <span class="tag">Flask</span>
+        <span class="tag">Linux</span>
+        <span class="tag">API REST</span>
+        <span class="tag">HTML/CSS</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>🛠 Tecnologias</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">Linux</span>
+      <span class="tag">Git & GitHub</span>
+      <span class="tag">Python</span>
+      <span class="tag">Flask</span>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">Cloud (OCI)</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 — Henrique Lopes • Portfólio hospedado no GitHub Pages
+</footer>
+
+</body>
+</html>
